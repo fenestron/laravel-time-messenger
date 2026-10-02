@@ -1,14 +1,13 @@
 {
     "name": "fenestron/laravel-time-messenger",
-    "description": "Laravel client for the Time messenger API: posts, reactions, files, channels, users and real-time WebSocket events.",
+    "description": "Laravel client for the Time messenger REST API: posts, reactions, files, channels and users.",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "laravel",
         "time-messenger",
         "mattermost",
-        "api-client",
-        "websocket"
+        "api-client"
     ],
     "authors": [
         {

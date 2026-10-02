@@ -8,7 +8,6 @@ Laravel client for the [Time](https://time-messenger.ru) messenger API.
 
 - Fluent facade for the REST API: posts, ephemeral posts, reactions, files, channels and users.
 - Built on Laravel's HTTP client, so `Http::fake()` works in your tests.
-- Optional WebSocket listener for real-time events with pluggable event handlers. Requires `amphp/websocket-client`, which is not installed by default.
 
 ## Requirements
 
