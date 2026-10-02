@@ -1,0 +1,30 @@
+{
+    "name": "fenestron/laravel-time-messenger",
+    "description": "Laravel client for the Time messenger API: posts, reactions, files, channels, users and real-time WebSocket events.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "time-messenger",
+        "mattermost",
+        "api-client",
+        "websocket"
+    ],
+    "authors": [
+        {
+            "name": "fenestron"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "illuminate/http": "^12.0|^13.0",
+        "illuminate/support": "^12.0|^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fenestron\\TimeMessenger\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
