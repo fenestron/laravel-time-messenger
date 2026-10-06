@@ -36,6 +36,16 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fenestron\\TimeMessenger\\Laravel\\TimeMessengerServiceProvider"
+            ],
+            "aliases": {
+                "Time": "Fenestron\\TimeMessenger\\Laravel\\Facades\\Time"
+            }
+        }
+    },
     "scripts": {
         "test": "phpunit",
         "format": "pint"
